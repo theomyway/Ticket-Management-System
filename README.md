@@ -1,5 +1,6 @@
 # Ticket-Management-System
-#Created online ticket management system with admin and customer handles
+Created online ticket management system with admin and customer handles
+
 #Admin Control
 ![Admin Control](https://user-images.githubusercontent.com/91969204/147466951-c9dd859b-6a5a-4e3c-a7fa-2370b57b62e3.jpg)
 #Customer Home
