@@ -1,0 +1,44 @@
+create table Admin(
+Username varchar(max)  not null,
+Password varchar(max) not null
+)
+
+
+
+select * from Customer
+create table Customer(
+Customer_ID int IDENTITY(1001,3) primary key ,
+First_name varchar(50) not null,
+Last_name varchar(50) not null,
+Middle_name varchar(50) not null,
+Gender varchar(50) not null,
+Age int not null,
+Phone varchar(50) not null,
+Username varchar(50) not null,
+Password varchar(50) not null
+)
+drop table Bookings
+create table Bookings(
+Booking_ID int IDENTITY(2001,1) primary key,
+Customer_ID int not null,
+First_name varchar(50) not null,
+Last_name varchar(50) not null,
+Middle_name varchar(50) not null,
+Gender varchar(50) not null,
+Age varchar(50) not null,
+Phone varchar(50) not null,
+From_ varchar(50) not null,
+To_ varchar(50) not null,
+Departure date not null,
+Arrival date not null,
+Luggage int not null,
+Persons int not null,
+Commute varchar(50) not null,
+Company varchar(50) not null,
+Category varchar(20) not null,
+Total bigint not null,
+Status varchar(20) not null
+
+
+)
+select * from Bookings
